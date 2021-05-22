@@ -1,0 +1,21 @@
+.monaco-workbench .part,
+.monaco-workbench .notifications-list-container .notification-list-item,
+.context-view.monaco-menu-container {
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: SF Pro Rounded;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    -webkit-text-stroke: 0.5px !important;
+    -webkit-font-smoothing: subpixel-antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.context-view.monaco-menu-container {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.codicon[class*=codicon-] {
+    -webkit-text-stroke: transparent;
+}
